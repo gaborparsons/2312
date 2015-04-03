@@ -1,0 +1,7 @@
+<div id="animalBg" sticky-note ng-repeat="note in notes" note="note" class="alert alert-block sticky-note animal" ondelete="deleteNote(id)">
+
+<div style="background: url('/images/animals/batBubble.png') top left no-repeat;" swipable-animal ng-show="!showActions" ng-swipe-left="showActions = true" class="colorFilling filling1">
+</div>
+
+<div style="background: url('/images/animals/bat.png') top left no-repeat;" ng-show="showActions" ng-swipe-right="showActions = false" class="colorFilling filling2">
+</div>

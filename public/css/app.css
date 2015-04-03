@@ -1,0 +1,90 @@
+body {
+	background: url(/images/Landscape2312.jpg) top left repeat fixed;
+	background-size: 100%; 
+}
+body.index {
+	background: url(/images/2312TitlePage.jpg) top left repeat fixed;
+	background-size: 100%; 
+}
+.container{
+	height: 700px;
+}
+.navbar, .navbar-inner, .navbar-inverse{
+	background: none !important;
+	border: none !important;
+}
+.brand{
+	font-family: "Helvetica" !important;
+	font-style: italic;
+	font-size: 60px !important;
+	line-height: 100px;
+}
+.sticky-note {
+	position: absolute;
+}
+
+.sticky-note .title {
+	background: transparent;
+	border: none;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sticky-note .body {
+	background: transparent;
+	border: none;
+	display: block;
+}
+
+.animal{
+	width: 200px !important;
+	height: 200px !important;
+	padding: 0px !important;
+/*	background: url('/images/antelopeBubble2.png') top left no-repeat !important;
+*/
+}
+.colorFilling{
+	height: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.filling1{
+	/*background: url("/images/animals/batBubble.png") top left no-repeat;*/
+	background-size: 100%;
+
+}
+.filling2{
+	/*background: url("/images/animals/bat.png") top left no-repeat;*/
+	background-size: 100%;
+}
+
+#createButton{
+	margin:50px 0 100px 0;
+	background: none;
+	width: 300px;
+	height: 70px;
+	border: none;
+	opacity: .5;
+}
+#createButton span{
+	font-size: 22px;	
+}
+
+
+.alert, .alert-block, .sticky-note{
+	background: none;
+	border: none;
+}
+.menu{
+	border:none !important;
+}
+
+.aMenu{
+	margin: 150px 0 0 60px;
+	line-height: 140px;
+	font-size: 30px;
+	color: white;
+	opacity: .5;
+}
