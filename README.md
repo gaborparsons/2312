@@ -1,20 +1,15 @@
-AngularJS Collab Board
-======================
+2312 - AngularJS - Socket.io - Node.js
+======================================
 
-A real-time collaboration board using AngularJS and Socket.io.
+An interactive illustration to Kim Stanley Robinson's 2312 novel.
 
-## How to use angularjs-collab-board
+## How to use it
 
-Clone the angularjs-collab-board repository, run `npm install` to grab the dependencies, and start hacking!
+Clone the repository, run `npm install` to grab the dependencies, run `bower install` and start playing. 
 
 ### Running the app
 
 Runs like a typical express app:
 
-    node app.js
+    node server.js
     
-## Resources
-For more information on AngularJS please check out http://angularjs.org/
-For more on Express and Jade, http://expressjs.com/ and http://jade-lang.com/ are your friends.
-Big ups to my friend Brian Ford for his Socket.io seed which got me started
-https://github.com/btford/angular-socket-io-seed 
